@@ -28,3 +28,4 @@ And you're DONE.
 
 * Use `forEach` instead of a loop. [This is a pretty good in-depth article on `forEach`](https://appdividend.com/2018/09/12/javascript-foreach-example/), but you don't need to read the entire thing to use it!
 * Make helper functions for your CSS changes. Right now, you may find yourself doing the `style` changes twice; once in the event listener on each item, and once in your "Meteor Me" button code. But you could write a helper function that takes in a node element and runs the `opacity` change (and one each for the other two!), and then call that on the element you want to change. It's not a huge win (Write Everything Twice, and that's exactly what we're doing), but it's a good exercise for when we DO need this kind of helper function.
+
